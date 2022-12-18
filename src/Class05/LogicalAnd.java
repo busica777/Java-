@@ -1,0 +1,35 @@
+package Class05;
+
+public class LogicalAnd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+boolean understandJava=true;
+boolean enjoyJava=true;
+boolean practice=true;
+		if(understandJava && enjoyJava && practice) {
+			System.out.println("this is awesome");
+		}
+		
+		System.out.println("   another example   ");
+		
+		int n1=100;
+		int n2=200; 
+		int n3=300;
+		int n4=400;
+		
+		if(n1>n2 && n1>n3) {
+		System.out.println(n1+ "is the largest");
+	} else if 
+		(n2>n3 && n2>n1) {
+System.out.println(n2+ " is the largest");
+
+	} else if
+		(n3>n1 && n3>n2) {
+System.out.println(n3+ " is the largest");
+
+	}else if
+		(n4>n1 && n4>n3) {
+		System.out.println(n4+ " is the largest");
+	}
+		}}
